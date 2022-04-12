@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #a3a6f7;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  text-align: center;
+  height: 360px;
+  width: 360px;
+  background-color: #01213b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+h2 {
+  font-size: 40px;
+}
+.product {
+  height: 160px;
+  width: 100%;
+  background-color: #f6ffd2;
+  position: relative;
+  border-radius: 18px;
+  z-index: 2;
+  padding: 10px;
+  overflow: hidden;
+}
+.product img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.5);
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 1rem;
+}
+.left svg {
+  cursor: pointer;
+}
+.counter .right {
+  display: flex;
+  align-items: center;
+}
+.container .right button {
+  padding-inline: 1rem;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 1rem;
+  padding-top: 1.4rem;
+  padding-bottom: 4rem;
+}
+.info h2,
+.info h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+#number {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #72e7bb;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow img {
+  transform: rotate(-180deg) scale(2);
+  cursor: pointer;
+}
+
+.right-arrow img {
+  transform: scale(2);
+  cursor: pointer;
+}
